@@ -1,0 +1,18 @@
+<core:FragmentDefinition xmlns:core="sap.ui.core" xmlns="sap.m" 
+	xmlns:anubhav="oft.fiori.controls"
+	xmlns:form="sap.ui.layout.form">
+	<form:SimpleForm editable="true" layout="ResponsiveGridLayout" id="__form0">
+        <form:content>
+        	<anubhav:CustomControl mario="Superman" color="red"></anubhav:CustomControl>
+        	<anubhav:CustomControl zumba="2px solid red" mario="Spiderman"></anubhav:CustomControl>
+        	<anubhav:AmazingButton anubhav="onAnubhav" text="Just Hover on me"></anubhav:AmazingButton>
+            <core:Title text="More Data" id="__title0"/>
+            <Label text="Description" id="__label0"/>
+            <Text text="{DESCRIPTION}" id="__text44"/>
+            <Label text="Type Code" id="__label1"/>
+            <Text text="{TYPE_CODE}" id="__text45"/>
+            <Label text="Category" id="__label2"/>
+            <Text text="{CATEGORY}" id="__text46"/>
+        </form:content>
+    </form:SimpleForm>	
+</core:FragmentDefinition>
